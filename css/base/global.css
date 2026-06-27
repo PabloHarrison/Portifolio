@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background-color: #0f1422;
+}
+
+.page_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    padding-inline: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+article {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    border: 1px solid #929292;
+    border-radius: 10px;
+    padding: 26px;
+    background-color: #181e27;
+}
+
+/* celular */
+
+@media (max-width: 768px) {
+    .page_container {
+        padding-inline: 1rem;
+    }
+
+    article {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        border: 1px solid #929292;
+        border-radius: 10px;
+        padding: 26px;
+        background-color: #181e27;
+    }
+}

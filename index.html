@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Pablo Harrison</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page_container">
+        <header>
+            <nav class="barra_navegacao">
+                <p><span class="destaque">Pablo</span> Harrison</p>
+                <div class="links">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#projetos">Projetos</a>
+                </div>
+            </nav>
+            <div id="perfil">
+                <div id="descricao">
+                    <p>Olá, eu sou</p>
+                    <h1><span class="nome">Pablo <span class="destaque">Harrison</span></h1>
+                    <p id="titulo"><strong>Desenvolvedor Full Stack em Formação</strong></p>
+                    <p id="frase">Código limpo, mente disciplinada, evolução constante.</p>
+                </div>
+                <img id="foto_perfil" src="assets/imagens/perfil_arredondado.png" alt="Foto de perfil">
+            </div>
+        </header>
+        <main>
+            <section id="sobre">
+                <div class="sobre_descricao">
+                    <h2 class="sobre_mim"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                            viewBox="0 0 24 24" fill="none" stroke="#6c6df1" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round">
+                            <circle cx="12" cy="8" r="5" />
+                            <path d="M20 21a8 8 0 0 0-16 0" />
+                        </svg> Sobre Mim</h2>
+                    <p>Estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento back-end com Java
+                        e
+                        Spring Boot. Criação de APIs REST, integração com PostgreSQL, autenticação com Spring Security e
+                        versionamento de banco com Flyway. Experiência com testes automatizados, deploy em nuvem e
+                        desenvolvimento de aplicações reais com CRUD completo. Uso ferramentas como Git, Docker e
+                        IntelliJ
+                        no dia a dia de desenvolvimento.</p>
+                    <p>
+                        Foco em evoluir como desenvolvedor back-end construindo
+                        soluções
+                        práticas e eficientes.</p>
+                </div>
+                <img src="assets/imagens/d6180a4e-44e0-4a32-b270-a43c0169835e.png"
+                    alt="Foto ilustrativa de uma mesa com um computador.">
+            </section>
+            <section id="habilidades">
+                <h2 class="h2_habilidades"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                        viewBox="0 0 24 24" fill="none" stroke="#6c6df1" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-code-xml-icon lucide-code-xml">
+                        <path d="m18 16 4-4-4-4" />
+                        <path d="m6 8-4 4 4 4" />
+                        <path d="m14.5 4-5 16" />
+                    </svg> Habilidades</h2>
+                <ul class="topico_habilidade">
+                    <li><strong>Backend</strong>
+                        <div class="container_habilidades">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                        </div>
+                    </li>
+                    <li><strong>Frontend</strong>
+                        <div class="container_habilidades">
+                            <span>HTML</span> <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </li>
+                    <li><strong>Banco de dados</strong>
+                        <div class="container_habilidades">
+                            <span>PostgreSQL</span>
+                            <span>Flyway</span>
+                        </div>
+                    </li>
+                    <li><strong>DevOps / Deploy</strong>
+                        <div class="container_habilidades">
+                            <span>Docker</span>
+                            <span>Supabase</span>
+                            <span>Render</span>
+                            <span>Railway</span>
+                            <span>Vercel</span>
+                        </div>
+                    </li>
+                    <li><strong>Testes</strong>
+                        <div class="container_habilidades">
+                            <span>JUnit</span>
+                            <span>Mockito</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="projetos">
+                <h2 class="h2_projetos"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                        viewBox="0 0 24 24" fill="none" stroke="#6c6df1" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-folder-closed-icon lucide-folder-closed">
+                        <path
+                            d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
+                        <path d="M2 10h20" />
+                    </svg> Projetos</h2>
+                <article>
+                    <img src="assets/imagens/project1_image.png"
+                        alt="imagem do projeto de Gerenciamento de Registros de Estudos" class="projeto_imagem">
+                    <div class="projeto_info">
+                        <div class="titulo_projeto">
+                            <h3>Registro de Estudos</h3>
+                            <span class="tag_api">Api</span>
+                        </div>
+                        <p class="projeto_descricao">Desenvolvimento de uma API de backend para gerenciamento de
+                            registros e atividades de estudo.
+                            A
+                            aplicação utiliza Spring Data JPA para comunicação eficiente com PostgreSQL e Spring
+                            Security
+                            para autenticação e autorização, garantindo segurança e controle de acesso.</p>
+                        <div class="container_habilidades">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Docker</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/imagens/project2_image.png"
+                        alt="imagem do projeto de Gerenciamento de Registros de Estudos" class="projeto_imagem">
+                    <div class="projeto_info">
+                        <div class="titulo_projeto">
+                            <h3>Storage Room (Integração com Google Drive)</h3>
+                            <span class="tag_web">Web</span>
+                        </div>
+                        <p class="projeto_descricao">Desenvolvimento de uma API backend integrada ao Google Drive,
+                            permitindo operações de upload,
+                            download, atualização e remoção de arquivos armazenados na conta conectada do usuário. A
+                            aplicação foi estruturada com foco em gerenciamento de armazenamento e organização de
+                            arquivos.
+                            A API aplica validações específicas, como restrição para envio de arquivos no formato .zip,
+                            visando otimização do uso de armazenamento dentro do limite de 15 GB do Google Drive.</p>
+                        <div class="container_habilidades">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <aside>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#6c6df1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send-icon lucide-send"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg> <strong>Conecte-se comigo</strong></p>
+                <div class="contatos">
+                    <a target="_blank" href="https://github.com/PabloHarrison"><svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>github [#142]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#ffffff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]"> </path> </g> </g> </g> </g></svg>GitHub</a>
+                    <a target="_blank" href="https://www.linkedin.com/in/pablo-harrison/"><svg height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 382 382" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#0077B7;" d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889 C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056 H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806 c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1 s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73 c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079 c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426 c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472 L341.91,330.654L341.91,330.654z"></path> </g></svg>LinkedIn</a>
+                    <a href="mailto:pabloh4rr1sun@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6c6df1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg> Email</a>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <p>Email: pabloh4rr1sun@gmail.com</p>
+            <p>© 2026 Pablo Harrison. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

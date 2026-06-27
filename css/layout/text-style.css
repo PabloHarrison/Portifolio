@@ -1,0 +1,46 @@
+.destaque {
+    color: #6c6df1;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#titulo {
+    color: #6c6df1;
+    font-size: 20px;
+}
+
+#frase {
+    color: #dadadac0;
+}
+
+.barra_navegacao p {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.titulo_projeto h3 {
+    font-size: 28px;
+}
+
+.sobre_descricao p {
+    color: #dadadac0;
+    line-height: 1.5;
+}
+
+.projeto_descricao {
+    color: #dadadac0;
+    line-height: 1.5;
+}
+
+aside p{
+    font-size: 28px;
+}
+
+strong{
+    font-weight: normal;
+}
